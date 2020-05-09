@@ -1,1 +1,17 @@
 2020-05-09源码阅读
+
+缓存
+一级缓存，可以设置未session，statement级别，其中statement级别类似与去除缓存
+二级缓存，可以在一级配置里开关，也可以在mapper里开关<cache/> , 还可以在语句级别设置flushCache-每次查询清除缓存，useCahche设置是否缓存
+其中二级缓存跟事务绑定，当提交的时候才生效，防止造成数据部分写入缓存而未插入数据库的不一致现象。
+
+源码
+通过将mapper和method 联合缓存，并通过代理类来执行sql。
+
+插件有4个:
+Executor
+Parameter
+Result
+
+需要查看源码
+
