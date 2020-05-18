@@ -1,0 +1,6 @@
+
+https://mp.weixin.qq.com/s/lIHGU_5THytQ_fProtypWw
+码农田小齐
+
+程序员小灰 拓扑排序，使用数组存储节点，使用Queue来计算，数据里0的入队列，从队列里poll.
+从队列过的元素总量等于所有节点数表示是一个有效的DAG
