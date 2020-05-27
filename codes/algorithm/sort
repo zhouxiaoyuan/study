@@ -1,6 +1,6 @@
 
 //冒泡排序 Bubble Sort   时间复杂度: O(n*n)  空间复杂度: O(1)  ; 稳定的排序算法
-void sort(int[] nums) {
+void bubbleSort(int[] nums) {
     //定义一个布尔变量 hasChange，用来标记每轮遍历中是否发生了交换
     boolean hasChange = true; 
 
@@ -17,6 +17,13 @@ void sort(int[] nums) {
         }
      }
  }
+ 
+ void swap(int[] nums, int i, int j )){
+  if(nums==null || nums.length < i + 1 || nums.length < j + 1){ return ;}
+  int temp = nums[i];
+  nums[i] = nums[j];
+  nums[j] = temp;
+ }
 
 
 //插入排序 时间复杂度: O(n*n)   时间复杂度: O(n*n)  空间复杂度: O(1)  ; 稳定的排序算法
