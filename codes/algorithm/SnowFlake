@@ -1,6 +1,6 @@
 /**
  * @author zhouxiaoyuan 2020/5/28 16:42
- * @Description SnowFlake
+ * @Description SnowFlake  https://github.com/souyunku/SnowFlake
  */
 public class SnowFlake {
 
