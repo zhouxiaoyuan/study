@@ -1,0 +1,70 @@
+public class algrithmTest {
+
+    public static void main(String[] args) {
+        String[] board = {"OOXXOXXX","XXXOXOXO","OXOXXXOO","XOXOXXXX","OXOOXOOO","XOOOOOOO","OXXXOOOX","XOXOOXXX"};
+        System.out.println( "<" + tictactoe(board) + ">" );
+
+
+    }
+
+
+    public static String tictactoe(String[] board) {
+
+        char c;
+        int length = board.length;
+        boolean hasSpace = false;
+        for(String s: board){
+            //判断行是否满足
+            if(s.contains(" ")){
+                hasSpace = true;
+                continue;
+            }
+            c = s.charAt(0);
+            int i = 1;
+            for( ; i < length  &&  c == s.charAt(i) ;i++ ){
+            }
+            if( i == length  && c != ' ' ){
+                return c+"";
+            }
+
+        }
+
+        //判断列是否满足
+        for(int i = 0 ; i < length  ; i++ ){
+            c = board[0].charAt(i);
+            int j = 1;
+            for(  ; j < length  && c == board[j].charAt(i) ;j++ ){
+            }
+            if( j == length && c != ' ' ){
+                return c+"";
+            }
+        }
+
+        //判断对角线
+        c = board[0].charAt(0);
+        int i = 0;
+        for(; i < length  && c == board[i].charAt(i); i++ ){
+
+        }
+        if( i == length  && c != ' '){
+            return c+"";
+        }
+
+        c = board[0].charAt(length-1);
+        i = 1;
+        for(; i >= 0  && c == board[i].charAt(length-i-1); i-- ){
+
+        }
+        if( i == - 1 && c != ' '){
+            return c+"";
+        }
+
+
+        if(hasSpace){
+            return "Pending";
+        }
+
+        return "Draw";
+
+    }
+}
