@@ -1,6 +1,6 @@
 The Java programming language defines the following kinds of variables:<br>
 #### Instance Variables (Non-Static Fields)
-  Technically speaking, objects store their individual states in "non-static fields", that is, fields declared without the 
+  >Technically speaking, objects store their individual states in "non-static fields", that is, fields declared without the 
   static keyword. <br>
   Non-static fields are also known as instance variables because their values are unique to each instance of a class (to each object, 
   in other words); the currentSpeed of one bicycle is independent from the currentSpeed of another.<br>
