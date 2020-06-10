@@ -31,3 +31,4 @@ If the context calls for a distinction, we will use specific terms (static field
 You may also occasionally see the term "member" used as well. A type's fields, methods, and nested types are collectively called 
 its members.<br>
 
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html
