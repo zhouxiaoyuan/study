@@ -1,33 +1,33 @@
 ##### appendToFile
-cat
-chgrp
-chmod
-chown
-copyFromLocal
-copyToLocal
-count
-cp
-du
-dus
-expunge
-get
-getfacl
-getfattr
-getmerge
-ls
-lsr
-mkdir
-moveFromLocal
-moveToLocal
-mv
-put
-rm
-rmr
-setfacl
-setfattr
-setrep
-stat
-tail
-test
-text
-touchz
+##### cat
+##### chgrp
+##### chmod
+##### chown
+##### copyFromLocal
+##### copyToLocal
+##### count
+##### cp
+##### du
+##### dus
+##### expunge
+##### get
+##### getfacl
+##### getfattr
+##### getmerge
+##### ls
+##### lsr
+##### mkdir
+##### moveFromLocal
+##### moveToLocal
+##### mv
+##### put
+##### rm
+##### rmr
+##### setfacl
+##### setfattr
+##### setrep
+##### stat
+##### tail
+##### test
+##### text
+##### touchz
