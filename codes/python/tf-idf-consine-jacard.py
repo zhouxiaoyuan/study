@@ -1,3 +1,8 @@
+#
+#consine： 相似度计算
+#jacard：  相似度计算
+
+
 import os
 
 #读取文件内容
