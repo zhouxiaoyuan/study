@@ -19,7 +19,7 @@ The Java programming language defines the following kinds of variables:<br>
   the variable is declared — which is between the opening and closing braces of a method. <br>
   As such, local variables are only visible to the methods in which they are declared; they are not accessible from the rest of 
   the class.<br>
-#### Parameters 
+#### Parameters  
   >You've already seen examples of parameters, both in the Bicycle class and in the main method of the "Hello World!" application. <br>
   Recall that the signature for the mainmethod is public static void main(String[] args). Here, the args variable is the parameter to 
   this method. The important thing to remember is that parameters are always classified as "variables" not "fields". <br>
