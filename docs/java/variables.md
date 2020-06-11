@@ -25,6 +25,7 @@ The Java programming language defines the following kinds of variables:<br>
   This applies to other parameter-accepting constructs as well (such as constructors and exception handlers) 
   that you'll learn about later in the tutorial.<br>
   <br><br>
+  --------
 Having said that, the remainder of this tutorial uses the following general guidelines when discussing fields and variables. <br>
 If we are talking about "fields in general" (excluding local variables and parameters), we may simply say "fields". <br>
 If the discussion applies to "all of the above", we may simply say "variables". <br>
