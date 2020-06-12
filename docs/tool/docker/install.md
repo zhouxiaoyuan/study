@@ -25,7 +25,7 @@ sudo yum-config-manager \
 ```
 
 ### Docker安装
-####安装 Docker Engine-Community
+#### 安装 Docker Engine-Community
 ```
 sudo yum install -y docker-ce docker-ce-cli containerd.io
 ```
