@@ -29,3 +29,19 @@ sudo yum-config-manager \
 ```
 sudo yum install -y docker-ce docker-ce-cli containerd.io
 ```
+#### 安装Cloudera 
+[docker搭建CDH集群](https://blog.csdn.net/eyeofeagle/article/details/85159600)
+>端口分配规则: 端口加10000,如果超过65535,则加1000
+```
+docker pull cloudera/quickstart:latest
+ docker run \
+ -id \
+ --hostname=quickstart.cloudera \
+--privileged=true  \
+ -p 18020:8020 -p 7180:7180 -p 31050:21050 -p 60070:50070 -p 60075:50075 \
+ -p 60010:50010 -p 60020:50020 -p 18890:8890 -p 61010:60010 -p 20002:10002  \
+ -p 35010:25010 -p 35020:25020 -p 28088:18088 -p 18088:8088 -p 29888:19888 \
+ -p 17187:7187 -p 21000:11000 -t -p 18888:8888 \
+ --name=mycdh3 \
+ cloudera/quickstart /usr/bin/docker-quickstart 
+```
