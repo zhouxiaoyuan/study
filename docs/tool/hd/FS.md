@@ -4,6 +4,59 @@
 
 ###### 更新到getfacl命令
 
+|命令|功能|
+|:-:|:-:|
+|appendToFile||
+|cat||
+|checksum||
+|chgrp||
+|chmod||
+|chown||
+|copyFromLocal||
+|copyToLocal||
+|count||
+|cp||
+|createSnapshot||
+|deleteSnapshot||
+|df||
+|du||
+|dus||
+|expunge||
+|find||
+|get||
+|getfacl||
+|getfattr||
+|getmerge||
+|head||
+|help||
+|ls||
+|lsr||
+|mkdir||
+|moveFromLocal||
+|moveToLocal||
+|mv||
+|put||
+|renameSnapshot||
+|rm||
+|rmdir||
+|rmr||
+|setfacl||
+|setfattr||
+|setrep||
+|stat||
+|tail||
+|test||
+|text||
+|touch||
+|touchz||
+|truncate||
+|usage||
+|Deleting objects||
+|Overwriting Objects||
+|Timestamps||
+|Security model and operations||
+|Commands of limited value||
+
 ##### appendToFile
 ```
 Usage: hadoop fs -appendToFile <localsrc> ... <dst>
