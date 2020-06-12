@@ -4,7 +4,7 @@
 ```
 /1.data	MD5-of-0MD5-of-512CRC32C	0000020000000000000000004e1906f5eb31a6487b119b44d4be58e5
 ```
-
+----------
 (base) [root@master zxy]# __hadoop fs -checksum /1.data /The_Man_of_Property.txt /test__
 ```
 /1.data	MD5-of-0MD5-of-512CRC32C	0000020000000000000000004e1906f5eb31a6487b119b44d4be58e5
