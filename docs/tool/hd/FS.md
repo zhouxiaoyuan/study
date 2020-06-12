@@ -5,7 +5,7 @@
 ###### 更新到getfacl命令
 
 |命令|功能|
-|:-:|:-:|
+|:-:|:-|
 |appendToFile|Append single src, or multiple srcs from local file system to the destination file system.<br> Also reads input from stdin and appends to destination file system|
 |cat||
 |checksum||
