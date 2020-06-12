@@ -49,7 +49,7 @@ docker pull cloudera/quickstart:latest
  docker exec -it mycdh3 bash
  /home/cloudera/cloudera-manager --enterprise
  
-`配置host映射`
-root@wang-pc:/home/wang# cat /etc/hosts
+配置host映射
+ cat /etc/hosts
 127.0.0.1	localhost wang-pc quickstart.cloudera
 ```
