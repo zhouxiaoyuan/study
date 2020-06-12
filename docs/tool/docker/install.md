@@ -34,6 +34,7 @@ sudo yum install -y docker-ce docker-ce-cli containerd.io
 >端口分配规则: 端口加10000,如果超过65535,则加1000
 ```
 docker pull cloudera/quickstart:latest
+
  docker run \
  -id \
  --hostname=quickstart.cloudera \
@@ -44,4 +45,11 @@ docker pull cloudera/quickstart:latest
  -p 17187:7187 -p 21000:11000 -t -p 18888:8888 \
  --name=mycdh3 \
  cloudera/quickstart /usr/bin/docker-quickstart 
+ 
+ docker exec -it mycdh3 bash
+ /home/cloudera/cloudera-manager --enterprise
+ 
+ >配置host映射
+root@wang-pc:/home/wang# cat /etc/hosts
+127.0.0.1	localhost wang-pc quickstart.cloudera
 ```
