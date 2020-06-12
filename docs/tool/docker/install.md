@@ -31,7 +31,7 @@ sudo yum install -y docker-ce docker-ce-cli containerd.io
 ```
 #### Docker安装Cloudera 
 [docker搭建CDH集群](https://blog.csdn.net/eyeofeagle/article/details/85159600)
->端口分配规则: 端口加10000,如果超过65535,则加1000
+>端口分配规则: 除7180,其余端口加10000,如果超过65535,则加1000
 ```
 docker pull cloudera/quickstart:latest
 
