@@ -4,7 +4,8 @@
 
 ##### appendToFile
 ```
-Append single src, or multiple srcs from local file system to the destination file system. Also reads input from stdin and appends to destination file system.
+  Append single src, or multiple srcs from local file system to the destination file system.
+  Also reads input from stdin and appends to destination file system.
 hadoop fs -appendToFile localfile /user/hadoop/hadoopfile
 hadoop fs -appendToFile localfile1 localfile2 /user/hadoop/hadoopfile
 hadoop fs -appendToFile localfile hdfs://nn.example.com/hadoop/hadoopfile
