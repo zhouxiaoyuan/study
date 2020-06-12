@@ -6,7 +6,7 @@
 
 |命令|功能|
 |:-:|:-:|
-|appendToFile||
+|appendToFile|Append single src, or multiple srcs from local file system to the destination file system. Also reads input from stdin and appends to destination file system|
 |cat||
 |checksum||
 |chgrp||
