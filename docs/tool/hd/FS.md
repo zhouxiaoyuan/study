@@ -7,12 +7,12 @@
 |命令|功能|
 |:-:|:-|
 |appendToFile|Append single src, or multiple srcs from local file system to the destination file system.<br> Also reads input from stdin and appends to destination file system|
-|cat||
-|checksum||
-|chgrp||
-|chmod||
-|chown||
-|copyFromLocal||
+|cat|Copies source paths to stdout.|
+|checksum|Returns the checksum information of a file.|
+|chgrp|Change group association of files. The user must be the owner of files, or else a super-user.<br> Additional information is in the Permissions Guide.|
+|chmod|Change the permissions of files. With -R, make the change recursively through the directory structure.<br> The user must be the owner of the file, or else a super-user. Additional information is in the Permissions Guide.|
+|chown|Change the owner of files. The user must be a super-user. Additional information is in the Permissions Guide.|
+|copyFromLocal|Similar to the fs -put command, except that the source is restricted to a local file reference.|
 |copyToLocal||
 |count||
 |cp||
