@@ -18,10 +18,14 @@ sudo yum install -y yum-utils \
 ```  
 
 >使用以下命令来设置稳定的仓库。
+```
 sudo yum-config-manager \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
+```
 
 ### Docker安装
 ####安装 Docker Engine-Community
-`sudo yum install -y docker-ce docker-ce-cli containerd.io`
+```
+sudo yum install -y docker-ce docker-ce-cli containerd.io
+```
