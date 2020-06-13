@@ -1,4 +1,4 @@
-#### offical demo
+#### [offical demo](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/FileSystemShell.html#appendToFile 'https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/FileSystemShell.html#appendToFile')
 ##### one file
 ```
 (base) [root@master mr]# hadoop fs -text /test
