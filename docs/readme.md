@@ -14,3 +14,5 @@
 |[汇总](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook)|[汇总](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook)|| 
 ||||| 
 |[Mysql5.7](https://dev.mysql.com/doc/refman/5.7/en/ "https://dev.mysql.com/doc/refman/5.7/en/")||| 
+|[Mysql8](https://docs.oracle.com/javase/8/ "https://docs.oracle.com/javase/8/")||| 
+
