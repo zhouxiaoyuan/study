@@ -35,7 +35,7 @@ hdfs
 
 #####  from stdin  
 ###### use CTRL+D exit from stdin
-```
+
 (base) [root@master mr]# hadoop fs -appendToFile - /test
 i am zhouxiaoyuan
 (base) [root@master mr]# 
@@ -49,5 +49,5 @@ tail2
 hdfs
 <font color=red>i am zhouxiaoyuan</font>
 (base) [root@master mr]# 
-```
-<img src="http://pic11.photophoto.cn/20090626/0036036341009653_b.jpg" width="251" height="350">
+
+
