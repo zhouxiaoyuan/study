@@ -1,5 +1,6 @@
 
 #### [offical demo](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/FileSystemShell.html#cat) 
+>Copies source paths to stdout.
 ##### one file
 ```
 (base) [root@master mr]# hadoop fs -cat /test
