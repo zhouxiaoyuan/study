@@ -14,7 +14,7 @@ ip:8088
 ip:8080
 ```
 
-##### <a target="_blank" href="https://kafka.apache.org/">Zookeeper</a>(https://zookeeper.apache.org/)
+##### Zookeeper(https://zookeeper.apache.org/)
 <a target="_blank" href="https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/5AF11C787E6544E09C60175ACB8BCB3E">环境安装</a>
 
 
