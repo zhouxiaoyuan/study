@@ -16,7 +16,7 @@
 
 
 
-![图片](https://pics0.baidu.com/feed/29381f30e924b899aa04972a01ecd2930b7bf6dd.jpeg?token=254038cce62269bf3ac703c8e304fc98 "image")
+![图片](https://github.com/zhouxiaoyuan/study/raw/master/docs/images/knowledge/tackon.png "image")
 
 
 
