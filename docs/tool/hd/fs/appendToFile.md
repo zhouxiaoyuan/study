@@ -50,3 +50,4 @@ hdfs
 <font color=red>i am zhouxiaoyuan</font>
 (base) [root@master mr]# 
 ```
+<img src="http://pic11.photophoto.cn/20090626/0036036341009653_b.jpg" width="50%" height="50%">
