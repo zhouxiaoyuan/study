@@ -21,7 +21,7 @@ tail2
 (base) [root@master mr]# 
 ```
 
-##### usr hdfs URI
+##### hdfs URI
 ```
 (base) [root@master mr]# echo "hdfs" > tailhdfs.txt
 (base) [root@master mr]# hadoop fs -appendToFile tail1.txt tail2.txt hdfs://master:9000/test
