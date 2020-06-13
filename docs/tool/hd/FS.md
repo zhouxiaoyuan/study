@@ -6,9 +6,9 @@
 
 |命令|功能|
 |:-:|:-|
-|appendToFile|Append single src, or multiple srcs from local file system to the destination file system.<br> Also reads input from stdin and appends to destination file system|
+|[appendToFile](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/appendToFile.md)|Append single src, or multiple srcs from local file system to the destination file system.<br> Also reads input from stdin and appends to destination file system|
 |cat|Copies source paths to stdout.|
-|checksum|Returns the checksum information of a file.获取文件的校验和 [[示例](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/checksum.md)]|
+|[checksum](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/checksum.md)|Returns the checksum information of a file.获取文件的校验和|
 |chgrp|Change group association of files. The user must be the owner of files, or else a super-user.<br> Additional information is in the Permissions Guide.|
 |chmod|Change the permissions of files. With -R, make the change recursively through the directory structure.<br> The user must be the owner of the file, or else a super-user. Additional information is in the Permissions Guide.|
 |chown|Change the owner of files. The user must be a super-user. Additional information is in the Permissions Guide.|
