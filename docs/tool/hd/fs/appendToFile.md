@@ -34,8 +34,8 @@ hdfs
 ```
 
 #####  from stdin  
-###### use CTRL+D exit from stdin
-
+###### use __CTRL+D__ exit from stdin
+```
 (base) [root@master mr]# hadoop fs -appendToFile - /test
 i am zhouxiaoyuan
 (base) [root@master mr]# 
@@ -47,7 +47,7 @@ tail2
 tail1
 tail2
 hdfs
-<font color=red>i am zhouxiaoyuan</font>
+i am zhouxiaoyuan
 (base) [root@master mr]# 
-
+```
 
