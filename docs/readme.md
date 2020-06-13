@@ -1,8 +1,8 @@
 
 
-|组件|安装|端口|组件| 
+|组件|安装|端口|笔记| 
 |:-|:-|:-|:-| 
-|[Hadoop2.6.1](https://hadoop.apache.org/docs/r2.6.5/ "https://hadoop.apache.org/docs/r2.6.5/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/A16243022183498C8330045651C360FE)|50070| 
+|[Hadoop2.6.1](https://hadoop.apache.org/docs/r2.6.5/ "https://hadoop.apache.org/docs/r2.6.5/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/A16243022183498C8330045651C360FE)|50070|[fs](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/FS.md) |
 |[Hbase](https://hbase.apache.org/ "https://hbase.apache.org/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/8A5BE9B94C4C4345951EF6883AB999A3)|60010| 
 |[Storm](https://storm.apache.org/ "https://storm.apache.org/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/9C59DEE115E047948B9B0AB67ECFA40A)|8080| 
 |[Flume](https://flume.apache.org/ "https://flume.apache.org/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/9E0D0D807FFC4B108B5FF4A00E2CC769)|| 
