@@ -12,6 +12,7 @@
 |[Kafaka](https://kafka.apache.org/)|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/50794958394B442C8E31C6D649ECA914)|| 
 |[Thrift](http://thrift.apache.org/)|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/7DF75AEC35924C7C9934C74E4990BF8F)|| 
 |[汇总](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook)|[汇总](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook)|| 
+|:-|:-|:-|:-| 
 |[Mysql5.7](https://dev.mysql.com/doc/refman/5.7/en/)||| 
 
 
