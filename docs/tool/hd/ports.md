@@ -2,7 +2,11 @@
 
 |组件|安装|端口| 
 |:-:|:-|:-| 
-|[Hadoop2.6.1](http://hadoop.apache.org/)|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/A16243022183498C8330045651C360FE)|50070| 
+|[Hadoop2.6.1](https://hadoop.apache.org/docs/r2.6.5/)
+|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/A16243022183498C8330045651C360FE)
+|50070| 
+
+
 
 
 href="https://developer.mozilla.org/zh-CN/docs/Web">WEB</a>
