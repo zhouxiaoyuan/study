@@ -3,17 +3,22 @@
 
 >Usage: hadoop fs -count [-q] [-h] [-v] [-x] [-t [<storage type>]] [-u] [-e] <paths>
 ```
-Count the number of directories, files and bytes under the paths that match the specified file pattern. Get the quota and the usage. 
+Count the number of directories, files and bytes under the paths that match the specified file pattern. 
+  Get the quota and the usage. 
 The output columns with -count are: DIR_COUNT, FILE_COUNT, CONTENT_SIZE, PATHNAME
-The -u and -q options control what columns the output contains. -q means show quotas, -u limits the output to show quotas and usage only.
-The output columns with -count -q are: QUOTA, REMAINING_QUOTA, SPACE_QUOTA, REMAINING_SPACE_QUOTA, DIR_COUNT, FILE_COUNT, CONTENT_SIZE, PATHNAME
+The -u and -q options control what columns the output contains. -q means show quotas, 
+  -u limits the output to show quotas and usage only.
+The output columns with -count -q are: QUOTA, REMAINING_QUOTA, SPACE_QUOTA, REMAINING_SPACE_QUOTA, 
+  DIR_COUNT, FILE_COUNT, CONTENT_SIZE, PATHNAME
 The output columns with -count -u are: QUOTA, REMAINING_QUOTA, SPACE_QUOTA, REMAINING_SPACE_QUOTA, PATHNAME
 The -t option shows the quota and usage for each storage type. The -t option is ignored if -u or -q option is not given.
-  The list of possible parameters that can be used in -t option(case insensitive except the parameter ""): "", “all”, “ram_disk”, “ssd”, “disk” or “archive”.
+  The list of possible parameters that can be used in -t option(case insensitive except the parameter ""): 
+  "", “all”, “ram_disk”, “ssd”, “disk” or “archive”.
 The -h option shows sizes in human readable format.
 The -v option displays a header line.
 The -x option excludes snapshots from the result calculation. 
-  Without the -x option (default), the result is always calculated from all INodes, including all snapshots under the given path.
+  Without the -x option (default), the result is always calculated from all INodes, 
+  including all snapshots under the given path.
 The -x option is ignored if -u or -q option is given.
 The -e option shows the erasure coding policy for each file.
 The output columns with -count -e are: DIR_COUNT, FILE_COUNT, CONTENT_SIZE, ERASURECODING_POLICY, PATHNAME
