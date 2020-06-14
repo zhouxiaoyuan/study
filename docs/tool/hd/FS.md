@@ -5,7 +5,7 @@
 ###### 更新到getfacl命令
 $\color{red}{Usage: hadoop fs -appendToFile <localsrc> ... <dst>}$
 <font color='#00ffff' size=72>color=#00ffff</font>
-
+<span style="color:red;">这是比font标签更好的方式。可以试试。</span>
 |命令|功能|
 |:-:|:-|
 |[appendToFile](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/appendToFile.md)|Append single src, or multiple srcs from local file system to the destination file system.<br> Also reads input from stdin and appends to destination file system<br> |
