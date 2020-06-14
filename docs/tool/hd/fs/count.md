@@ -1,7 +1,7 @@
 
 #### [count](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/CommandsManual.html)
 
->Usage: hadoop fs -count [-q] [-h] [-v] [-x] [-t [<storage type>]] [-u] [-e] <paths>
+>Usage: `hadoop fs -count [-q] [-h] [-v] [-x] [-t [<storage type>]] [-u] [-e] <paths>`
 ```
 Count the number of directories, files and bytes under the paths that match the specified file pattern. 
   Get the quota and the usage. 
