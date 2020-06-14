@@ -35,18 +35,17 @@
 |[mv](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#mv)| Moves files from source to destination. <br>This command allows multiple sources as well in which case the destination needs to be a directory.<br> Moving files across file systems is not permitted.<br>`Usage: hdfs dfs -mv URI [URI ...] <dest><>`|
 |[put](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#put)|Copy single src, or multiple srcs from local file system to the destination file system.<br>Also reads input from stdin and writes to destination file system.<br>`Usage: hdfs dfs -put <localsrc> ... <dst>`|
 |renameSnapshot||
-|[rm](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#rm)|Delete files specified as args.<br>`Usage: hdfs dfs -rm [-f] [-r|-R] [-skipTrash] URI [URI ...]`|
-|rmdir||
-|rmr||
+|[rm](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#rm)|Delete files specified as args.<br>`Usage: hdfs dfs -rm [-f] [-r\|-R] [-skipTrash] URI [URI ...]`|
+|[rmr](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#rmr)|Recursive version of delete.<br>Note: This command is deprecated. Instead use hdfs dfs -rm -r<br>`Usage: hdfs dfs -rmr [-skipTrash] URI [URI ...]`|
 |setfacl||
 |setfattr||
 |setrep||
-|stat||
-|tail||
+|[stat](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#stat)|Returns the stat information on the path.<br>`Usage: hdfs dfs -stat URI [URI ...]`|
+|[tail](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#tail)|Displays last kilobyte of the file to stdout.<br>The -f option will output appended data as the file grows, as in Unix.<br>`Usage: hdfs dfs -tail [-f] URI`|
 |test||
-|text||
+|[text](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#text)|Takes a source file and outputs the file in text format.<br> The allowed formats are zip and TextRecordInputStream.<br>`Usage: hdfs dfs -text <src>`|
 |touch||
-|touchz||
+|[touchz](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#touchz)|Create a file of zero length<br>`Usage: hdfs dfs -touchz URI [URI ...]`|
 |find||
 |truncate||
 |usage||
