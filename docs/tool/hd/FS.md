@@ -1,26 +1,11 @@
-```json
-   // code for coloring
-```
-```html
-   // code for coloring
-```
-```js
-   // code for coloring
-```
-```css
-   // code for coloring
-```
-// etc.
+
 ### [File System(FS)](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/FileSystemShell.html#put)
 #### All FS shell commands take path URIs(scheme://authority/path) as arguments.
 
 ###### 更新到getfacl命令
-$\color{red}{Usage: hadoop fs -appendToFile <localsrc> ... <dst>}$
-<font color='#00ffff' size=72>color=#00ffff</font>
-<span style="color:red;">这是比font标签更好的方式。可以试试。</span>
 |命令|功能|
 |:-:|:-|
-|[appendToFile](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/appendToFile.md)|Append single src, or multiple srcs from local file system to the destination file system.<br> Also reads input from stdin and appends to destination file system<br> |
+|[appendToFile](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/appendToFile.md)|Append single src, or multiple srcs from local file system to the destination file system.<br> Also reads input from stdin and appends to destination file system<br>`Usage: hadoop fs -appendToFile <localsrc> ... <dst>` |
 |[cat](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/cat.md)|Copies source paths to stdout.|
 |[checksum](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/checksum.md)|Returns the checksum information of a file.获取文件的校验和|
 |[chgrp](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/chgrp.md)|Change group association of files. The user must be the owner of files, or else a super-user.<br> Additional information is in the Permissions Guide.<br>Usage: hadoop fs -chgrp [-R] GROUP URI [URI ...]|
