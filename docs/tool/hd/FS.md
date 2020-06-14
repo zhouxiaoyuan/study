@@ -4,6 +4,7 @@
 
 ###### 更新到getfacl命令
 $\color{red}{Usage: hadoop fs -appendToFile <localsrc> ... <dst>}$
+<font color=#00ffff size=72>color=#00ffff</font>
 
 |命令|功能|
 |:-:|:-|
