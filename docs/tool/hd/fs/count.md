@@ -35,3 +35,4 @@ Example:
     hadoop fs -count -u -h -v hdfs://nn1.example.com/file1
     hadoop fs -count -e hdfs://nn1.example.com/file1
 ```
+  
