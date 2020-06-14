@@ -25,7 +25,15 @@ drwx-wx-wx   - root supergroup          0 2020-06-11 10:02 /tmp
 (base) [root@master zxy]# 
 ```
 
-
+##### directory 
+```
+(base) [root@master zxy]# hadoop fs -chgrp -R test /tests
+(base) [root@master zxy]# hadoop fs -ls -R /tests
+drwxr-xr-x   - root test          0 2020-06-14 10:36 /tests/d
+-rw-r--r--   1 root test          3 2020-06-14 10:36 /tests/d/d
+-rw-r--r--   1 root test          5 2020-06-14 10:31 /tests/test
+(base) [root@master zxy]# 
+```
 
 ##### add usr
 ```
