@@ -18,8 +18,8 @@
 |[createSnapshot](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsSnapshots.html)|HDFS Snapshots are read-only point-in-time copies of the file system. <br>Snapshots can be taken on a subtree of the file system or the entire file system.  <br>Some common use cases of snapshots are data backup, protection against user errors and disaster recovery.|
 |[deleteSnapshot](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsSnapshots.html#Delete_Snapshots)|Delete a snapshot of from a snapshottable directory.<br> This operation requires owner privilege of the snapshottable directory.|
 |df||
-|du||
-|dus||
+|[du](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#du)|Displays sizes of files and directories contained in the given directory or the length of a file in case its just a file.<br>`Usage: hdfs dfs -du [-s] [-h] URI [URI ...]`|
+|[dus](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#dus)|Displays a summary of file lengths.<br>Note: This command is deprecated. Instead use hdfs dfs -du -s.<br>`Usage: hdfs dfs -dus <args>`|
 |expunge||
 |find||
 |get||
