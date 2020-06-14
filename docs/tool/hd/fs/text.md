@@ -11,3 +11,4 @@ Takes a source file and outputs the file in text format. The allowed formats are
 (base) [root@master test]# hadoop fs -text  /tailln
 tail1
 ```
+
