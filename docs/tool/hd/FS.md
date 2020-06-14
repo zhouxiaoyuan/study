@@ -18,34 +18,34 @@
 |[createSnapshot](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsSnapshots.html)|HDFS Snapshots are read-only point-in-time copies of the file system. <br>Snapshots can be taken on a subtree of the file system or the entire file system.  <br>Some common use cases of snapshots are data backup, protection against user errors and disaster recovery.|
 |[deleteSnapshot](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsSnapshots.html#Delete_Snapshots)|Delete a snapshot of from a snapshottable directory.<br> This operation requires owner privilege of the snapshottable directory.|
 |df||
-|[du](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#du)|Displays sizes of files and directories contained in the given directory or the length of a file in case its just a file.<br>`Usage: hdfs dfs -du [-s] [-h] URI [URI ...]`|
-|[dus](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#dus)|Displays a summary of file lengths.<br>Note: This command is deprecated. Instead use hdfs dfs -du -s.<br>`Usage: hdfs dfs -dus <args>`|
-|[expunge](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#expunge)|Empty the Trash. Refer to the [HDFS Architecture Guide](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) for more information on the Trash feature.<br>`Usage: hdfs dfs -expunge`|
-|[get](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#get)|Copy files to the local file system.<br> Files that fail the CRC check may be copied with the -ignorecrc option.<br> Files and CRCs may be copied using the -crc option.<br>`Usage: hdfs dfs -get [-ignorecrc] [-crc] <src> <localdst> `|
-|[getfacl](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#getfacl)|Displays the Access Control Lists (ACLs) of files and directories.<br> If a directory has a default ACL, then getfacl also displays the default ACL.<br>`Usage: hdfs dfs -getfacl [-R] <path> `|
-|[getfattr](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#getfattr)|Displays the extended attribute names and values (if any) for a file or directory.<br>` Usage: hdfs dfs -getfattr [-R] -n name | -d [-e en] <path>`|
-|[getmerge](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#getmerge)|Takes a source directory and a destination file as input and concatenates files in src into the destination local file.<br> Optionally addnl can be set to enable adding a newline character at the end of each file.<br>`Usage: hdfs dfs -getmerge <src> <localdst> [addnl]`|
+|[du](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/du.md)|Displays sizes of files and directories contained in the given directory or the length of a file in case its just a file.<br>`Usage: hdfs dfs -du [-s] [-h] URI [URI ...]`|
+|[dus](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/dus.md)|Displays a summary of file lengths.<br>Note: This command is deprecated. Instead use hdfs dfs -du -s.<br>`Usage: hdfs dfs -dus <args>`|
+|[expunge](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/expunge.md)|Empty the Trash. Refer to the [HDFS Architecture Guide](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) for more information on the Trash feature.<br>`Usage: hdfs dfs -expunge`|
+|[get](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/get.md)|Copy files to the local file system.<br> Files that fail the CRC check may be copied with the -ignorecrc option.<br> Files and CRCs may be copied using the -crc option.<br>`Usage: hdfs dfs -get [-ignorecrc] [-crc] <src> <localdst> `|
+|[getfacl](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/getfacl.md)|Displays the Access Control Lists (ACLs) of files and directories.<br> If a directory has a default ACL, then getfacl also displays the default ACL.<br>`Usage: hdfs dfs -getfacl [-R] <path> `|
+|[getfattr](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/getfattr.md)|Displays the extended attribute names and values (if any) for a file or directory.<br>` Usage: hdfs dfs -getfattr [-R] -n name | -d [-e en] <path>`|
+|[getmerge](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/getmerge.md)|Takes a source directory and a destination file as input and concatenates files in src into the destination local file.<br> Optionally addnl can be set to enable adding a newline character at the end of each file.<br>`Usage: hdfs dfs -getmerge <src> <localdst> [addnl]`|
 |head||
 |help||
-|[ls](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#ls)|`Usage: hdfs dfs -ls [-R] <args> `|
-|[lsr](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#lsr)| `Note: This command is deprecated. Instead use hdfs dfs -ls -R` |
-|[mkdir](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#mkdir)|Takes path uri's as argument and creates directories.<br>The -p option behavior is much like Unix mkdir -p, creating parent directories along the path.<br>`Usage: hdfs dfs -mkdir [-p] <paths> `|
-|[moveFromLocal](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#moveFromLocal)|Similar to put command, except that the source localsrc is deleted after it's copied.<br>`Usage: hdfs dfs -moveFromLocal <localsrc> <dst>`|
-|[moveFromLocal](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#moveToLocal)|Displays a "Not implemented yet" message.|
-|[mv](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#mv)| Moves files from source to destination. <br>This command allows multiple sources as well in which case the destination needs to be a directory.<br> Moving files across file systems is not permitted.<br>`Usage: hdfs dfs -mv URI [URI ...] <dest><>`|
-|[put](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#put)|Copy single src, or multiple srcs from local file system to the destination file system.<br>Also reads input from stdin and writes to destination file system.<br>`Usage: hdfs dfs -put <localsrc> ... <dst>`|
+|[ls](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/ls.md)|`Usage: hdfs dfs -ls [-R] <args> `|
+|[lsr](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/lsr.md)| `Note: This command is deprecated. Instead use hdfs dfs -ls -R` |
+|[mkdir](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/mkdir.md)|Takes path uri's as argument and creates directories.<br>The -p option behavior is much like Unix mkdir -p, creating parent directories along the path.<br>`Usage: hdfs dfs -mkdir [-p] <paths> `|
+|[moveFromLocal](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/moveFromLocal.md)|Similar to put command, except that the source localsrc is deleted after it's copied.<br>`Usage: hdfs dfs -moveFromLocal <localsrc> <dst>`|
+|[moveToLocal](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/moveToLoal.md)|Displays a "Not implemented yet" message.|
+|[mv](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/mv.md)| Moves files from source to destination. <br>This command allows multiple sources as well in which case the destination needs to be a directory.<br> Moving files across file systems is not permitted.<br>`Usage: hdfs dfs -mv URI [URI ...] <dest><>`|
+|[put](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/put.md)|Copy single src, or multiple srcs from local file system to the destination file system.<br>Also reads input from stdin and writes to destination file system.<br>`Usage: hdfs dfs -put <localsrc> ... <dst>`|
 |renameSnapshot||
-|[rm](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#rm)|Delete files specified as args.<br>`Usage: hdfs dfs -rm [-f] [-r\|-R] [-skipTrash] URI [URI ...]`|
-|[rmr](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#rmr)|Recursive version of delete.<br>Note: This command is deprecated. Instead use hdfs dfs -rm -r<br>`Usage: hdfs dfs -rmr [-skipTrash] URI [URI ...]`|
+|[rm](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/rm.md)|Delete files specified as args.<br>`Usage: hdfs dfs -rm [-f] [-r\|-R] [-skipTrash] URI [URI ...]`|
+|[rmr](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/rmr.md)|Recursive version of delete.<br>Note: This command is deprecated. Instead use hdfs dfs -rm -r<br>`Usage: hdfs dfs -rmr [-skipTrash] URI [URI ...]`|
 |setfacl||
 |setfattr||
 |setrep||
-|[stat](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#stat)|Returns the stat information on the path.<br>`Usage: hdfs dfs -stat URI [URI ...]`|
-|[tail](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#tail)|Displays last kilobyte of the file to stdout.<br>The -f option will output appended data as the file grows, as in Unix.<br>`Usage: hdfs dfs -tail [-f] URI`|
+|[stat](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/stat.md)|Returns the stat information on the path.<br>`Usage: hdfs dfs -stat URI [URI ...]`|
+|[tail](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/tail.md)|Displays last kilobyte of the file to stdout.<br>The -f option will output appended data as the file grows, as in Unix.<br>`Usage: hdfs dfs -tail [-f] URI`|
 |test||
-|[text](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#text)|Takes a source file and outputs the file in text format.<br> The allowed formats are zip and TextRecordInputStream.<br>`Usage: hdfs dfs -text <src>`|
+|[text](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/text.md)|Takes a source file and outputs the file in text format.<br> The allowed formats are zip and TextRecordInputStream.<br>`Usage: hdfs dfs -text <src>`|
 |touch||
-|[touchz](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#touchz)|Create a file of zero length<br>`Usage: hdfs dfs -touchz URI [URI ...]`|
+|[touchz](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/touchz.md)|Create a file of zero length<br>`Usage: hdfs dfs -touchz URI [URI ...]`|
 |find||
 |truncate||
 |usage||
