@@ -6,10 +6,10 @@
 |命令|功能|
 |:-:|:-|
 |[appendToFile](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/appendToFile.md)|Append single src, or multiple srcs from local file system to the destination file system.<br> Also reads input from stdin and appends to destination file system<br>`Usage: hadoop fs -appendToFile <localsrc> ... <dst>` |
-|[cat](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/cat.md)|Copies source paths to stdout.|
-|[checksum](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/checksum.md)|Returns the checksum information of a file.获取文件的校验和|
-|[chgrp](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/chgrp.md)|Change group association of files. The user must be the owner of files, or else a super-user.<br> Additional information is in the Permissions Guide.<br>Usage: hadoop fs -chgrp [-R] GROUP URI [URI ...]|
-|[chmod](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/chmod.md)|Change the permissions of files. With -R, make the change recursively through the directory structure.<br> The user must be the owner of the file, or else a super-user. Additional information is in the Permissions Guide.|
+|[cat](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/cat.md)|Copies source paths to stdout.`Usage: hadoop fs -cat [-ignoreCrc] URI [URI ...]`|
+|[checksum](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/checksum.md)|Returns the checksum information of a file.获取文件的校验和`Usage: hadoop fs -checksum URI`|
+|[chgrp](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/chgrp.md)|Change group association of files. The user must be the owner of files, or else a super-user.<br> Additional information is in the Permissions Guide.<br>`Usage: hadoop fs -chgrp [-R] GROUP URI [URI ...]`|
+|[chmod](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/chmod.md)|Change the permissions of files. With -R, make the change recursively through the directory structure.<br> The user must be the owner of the file, or else a super-user. Additional information is in the Permissions Guide.`Usage: hadoop fs -chmod [-R] <MODE[,MODE]... | OCTALMODE> URI [URI ...]`|
 |[chown](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/chown.md)|Change the owner of files. The user must be a super-user. Additional information is in the Permissions Guide.|
 |[copyFromLocal](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/copyFromLocal.md)|Similar to the fs -put command, except that the source is restricted to a local file reference.|
 |[copyToLocal](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/hd/fs/copyToLocal.md)||
