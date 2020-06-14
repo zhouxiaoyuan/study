@@ -1,4 +1,16 @@
-
+```json
+   // code for coloring
+```
+```html
+   // code for coloring
+```
+```js
+   // code for coloring
+```
+```css
+   // code for coloring
+```
+// etc.
 ### [File System(FS)](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/FileSystemShell.html#put)
 #### All FS shell commands take path URIs(scheme://authority/path) as arguments.
 
