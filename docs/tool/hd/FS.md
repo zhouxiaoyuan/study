@@ -33,9 +33,9 @@
 |[moveFromLocal](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#moveFromLocal)|Similar to put command, except that the source localsrc is deleted after it's copied.<br>`Usage: hdfs dfs -moveFromLocal <localsrc> <dst>`|
 |[moveFromLocal](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#moveToLocal)|Displays a "Not implemented yet" message.|
 |[mv](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#mv)| Moves files from source to destination. <br>This command allows multiple sources as well in which case the destination needs to be a directory.<br> Moving files across file systems is not permitted.<br>`Usage: hdfs dfs -mv URI [URI ...] <dest><>`|
-|put||
+|[put](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#put)|Copy single src, or multiple srcs from local file system to the destination file system.<br>Also reads input from stdin and writes to destination file system.<br>`Usage: hdfs dfs -put <localsrc> ... <dst>`|
 |renameSnapshot||
-|rm||
+|[rm](https://hadoop.apache.org/docs/r2.6.5/hadoop-project-dist/hadoop-common/FileSystemShell.html#rm)|Delete files specified as args.<br>`Usage: hdfs dfs -rm [-f] [-r|-R] [-skipTrash] URI [URI ...]`|
 |rmdir||
 |rmr||
 |setfacl||
