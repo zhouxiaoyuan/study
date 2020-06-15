@@ -18,5 +18,5 @@
 |[ZooKeeper](https://zookeeper.apache.org/doc/current/index.html "https://zookeeper.apache.org/doc/current/index.html")||| 
 ||||| 
 ||||| 
-|[DeepLearning](https://github.com/JunpingDu/DeepLearning-500-questions)|||| 
+|[DeepLearning](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/DeepLearning/menu.md)|||| 
 
