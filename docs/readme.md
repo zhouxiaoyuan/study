@@ -19,4 +19,8 @@
 ||||| 
 ||||| 
 |[DeepLearning](https://github.com/zhouxiaoyuan/study/blob/master/docs/tool/DeepLearning/menu.md)|||| 
+||||| 
+||||| 
+|[practise](https://github.com/scutan90/interview_internal_reference)|||| 
+
 
