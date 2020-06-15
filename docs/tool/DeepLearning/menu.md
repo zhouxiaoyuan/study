@@ -6,7 +6,7 @@
 |[机器学习基础](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch02_机器学习基础/第二章_机器学习基础.md)||
 |[深度学习基础](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch03_深度学习基础/第三章_深度学习基础.md)||
 |[经典网络](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch04_经典网络/第四章_经典网络.md)||
-|[卷积神经网络(CNN)](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch05_卷积神经网络(CNN)/第五章_卷积神经网络(CNN).md)||
+|[卷积神经网络(CNN)](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch05_卷积神经网络(CNN)/第五章_第五章 卷积神经网络（CNN）.md)||
 |[循环神经网络(RNN)](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch06_循环神经网络(RNN)/第六章_循环神经网络(RNN).md)||
 |[生成对抗网络(GAN)](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch07_生成对抗网络(GAN)/第七章_生成对抗网络(GAN).md)||
 |[目标检测](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch08_目标检测/第八章_目标检测.md)||
