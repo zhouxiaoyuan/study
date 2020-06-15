@@ -20,4 +20,4 @@
 |[自然语言处理(NLP)](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch16_%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86(NLP)/%E7%AC%AC%E5%8D%81%E5%85%AD%E7%AB%A0_NLP.md)||
 |[模型压缩、加速及移动端部署](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch17_模型压缩、加速及移动端部署/第十七章_模型压缩、加速及移动端部署.md)||
 |[后端架构选型、离线及实时计算](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch18_后端架构选型、离线及实时计算/第十八章_后端架构选型、离线及实时计算.md)||
-|[后端架构选型及应用场景](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch18_后端架构选型及应用场景/第十九章_后端架构选型及应用场景.md)||
+|[后端架构选型及应用场景](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch18_%E5%90%8E%E7%AB%AF%E6%9E%B6%E6%9E%84%E9%80%89%E5%9E%8B%E5%8F%8A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF/%E7%AC%AC%E5%8D%81%E5%85%AB%E7%AB%A0_%E5%90%8E%E7%AB%AF%E6%9E%B6%E6%9E%84%E9%80%89%E5%9E%8B%E5%8F%8A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF.md)||
