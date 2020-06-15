@@ -16,8 +16,8 @@
 |[网络搭建及训练](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch12_网络搭建及训练/第十二章_网络搭建及训练.md)||
 |[优化算法](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch13_优化算法/第十三章_优化算法.md)||
 |[超参数调整](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch14_超参数调整/第十四章_超参数调整.md)||
-|[GPU和框架选型](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch15_GPU和框架选型/第十五章_GPU和框架选型.md)||
-|[自然语言处理(NLP)](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch16_自然语言处理(NLP)/第十六章_自然语言处理(NLP).md)||
+|[GPU和框架选型](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch15_GPU%E5%92%8C%E6%A1%86%E6%9E%B6%E9%80%89%E5%9E%8B/%E7%AC%AC%E5%8D%81%E4%BA%94%E7%AB%A0_%E5%BC%82%E6%9E%84%E8%BF%90%E7%AE%97%E3%80%81GPU%E5%8F%8A%E6%A1%86%E6%9E%B6%E9%80%89%E5%9E%8B.md)||
+|[自然语言处理(NLP)](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch16_%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86(NLP)/%E7%AC%AC%E5%8D%81%E5%85%AD%E7%AB%A0_NLP.md)||
 |[模型压缩、加速及移动端部署](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch17_模型压缩、加速及移动端部署/第十七章_模型压缩、加速及移动端部署.md)||
 |[后端架构选型、离线及实时计算](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch18_后端架构选型、离线及实时计算/第十八章_后端架构选型、离线及实时计算.md)||
 |[后端架构选型及应用场景](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch18_后端架构选型及应用场景/第十九章_后端架构选型及应用场景.md)||
