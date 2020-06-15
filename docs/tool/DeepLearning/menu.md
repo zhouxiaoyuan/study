@@ -1,7 +1,7 @@
 
 ##### [menu](https://github.com/JunpingDu/DeepLearning-500-questions)
 |章节|说明|
-|:-:|:-:|
+|:-|:-:|
 |[数学基础](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch01_数学基础/第一章_数学基础.md)||
 |[机器学习基础](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch02_机器学习基础/第二章_机器学习基础.md)||
 |[深度学习基础](https://github.com/JunpingDu/DeepLearning-500-questions/blob/master/ch03_深度学习基础/第三章_深度学习基础.md)||
