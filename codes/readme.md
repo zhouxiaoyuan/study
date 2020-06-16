@@ -2,6 +2,9 @@
 |:-|:-|
 |[Java]()||
 |[Python](https://github.com/zhouxiaoyuan/study/tree/master/codes/python)||
+|[badou]()||
+|[algorithm](https://github.com/zhouxiaoyuan/study/blob/master/codes/algorithm/readme)||
+
 
 ####  Java
 |列表||
@@ -16,4 +19,14 @@
 |[sshClient.py](https://github.com/zhouxiaoyuan/study/blob/master/codes/python/sshClient.py)<br>||
 
 
+####  badou
+|列表||
+|:-|:-|
+|[badou](https://github.com/zhouxiaoyuan/study/tree/master/codes/badou)||
+|[sshClient.py](https://github.com/zhouxiaoyuan/study/blob/master/codes/python/sshClient.py)<br>||
 
+#### algorithm
+|列表||
+|:-|:-|
+|[badou](https://github.com/zhouxiaoyuan/study/tree/master/codes/badou)||
+|[sshClient.py](https://github.com/zhouxiaoyuan/study/blob/master/codes/python/sshClient.py)<br>||
