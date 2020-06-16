@@ -46,8 +46,8 @@ void insertionSort(int[] nums) {
 }
 ```
 
+> 归并排序 Merge Sort  空间复杂度:O(n) 时间复杂度: O(nlogn)
 ```
-//归并排序 Merge Sort  空间复杂度:O(n) 时间复杂度: O(nlogn)
 void mergeSort(int[] A, int lo, int hi) {
   // 判断是否只剩下最后一个元素
   if (lo >= hi) return;
