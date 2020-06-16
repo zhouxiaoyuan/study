@@ -1,6 +1,7 @@
 
+
+> 冒泡排序 Bubble Sort   时间复杂度: O(n*n)  空间复杂度: O(1)  ; 稳定的排序算法
 ```
-//冒泡排序 Bubble Sort   时间复杂度: O(n*n)  空间复杂度: O(1)  ; 稳定的排序算法
 void bubbleSort(int[] nums) {
     //定义一个布尔变量 hasChange，用来标记每轮遍历中是否发生了交换
     boolean hasChange = true; 
@@ -18,8 +19,6 @@ void bubbleSort(int[] nums) {
         }
      }
  }
- ```
- ```
  void swap(int[] nums, int i, int j )){
   if(nums==null || nums.length < i + 1 || nums.length < j + 1){ return ;}
   int temp = nums[i];
@@ -28,9 +27,8 @@ void bubbleSort(int[] nums) {
  }
 ```
 
+> 插入排序 时间复杂度: O(n*n)   时间复杂度: O(n*n)  空间复杂度: O(1)  ; 稳定的排序算法
 ```
-
-//插入排序 时间复杂度: O(n*n)   时间复杂度: O(n*n)  空间复杂度: O(1)  ; 稳定的排序算法
 void insertionSort(int[] nums) {
     // 将数组的第一个元素当作已经排好序的，从第二个元素，即 i 从 1 开始遍历数组
     for (int i = 1, j, current; i < nums.length; i++) {
@@ -85,8 +83,10 @@ void merge(int[] nums, int lo, int mid, int hi) {
     }
 }
 ```
+
+> 快速排序 Quick Sort
 ```
-//快速排序 Quick Sort
+
 void quickSort(int[] nums, int lo, int hi) {
     if (lo >= hi) return; // 判断是否只剩下一个元素，是，则直接返回
     
