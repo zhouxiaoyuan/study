@@ -19,7 +19,7 @@
 |[sshClient.py](https://github.com/zhouxiaoyuan/study/blob/master/codes/python/sshClient.py)<br>||
 
 |Leecode||
-|:-||
+|:-|:-|
 |[剑指Offer](https://github.com/ustcyyw/yyw_algorithm)||
 
 ####  badou
