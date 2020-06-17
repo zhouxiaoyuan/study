@@ -8,7 +8,7 @@
 #### Leecode
 |列表||
 |:-|:-|
-|[CS-Notes](https://github.com/ustcyyw/CS-Notes)||
+|[CS-Notes](https://github.com/CyC2018/CS-Notes)||
 |[剑指Offer](https://github.com/ustcyyw/yyw_algorithm)||
 
 ####  Java
