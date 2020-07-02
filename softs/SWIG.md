@@ -15,7 +15,8 @@ Compile and verify
 
 [server]$ make
 [server]$ make check
-You might get some errors about ocaml. These don't matter (unless you intend to use this version of SWIG to generate ocaml bindings too.
+You might get some errors about ocaml. 
+These don't matter (unless you intend to use this version of SWIG to generate ocaml bindings too.
 
 [server]$ make install
 ```
