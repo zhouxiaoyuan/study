@@ -12,7 +12,7 @@
 |[Storm](https://storm.apache.org/ "https://storm.apache.org/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/9C59DEE115E047948B9B0AB67ECFA40A)|8080| 
 |[Flume](https://flume.apache.org/ "https://flume.apache.org/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/9E0D0D807FFC4B108B5FF4A00E2CC769)|| 
 |[Hive](https://hive.apache.org/ "https://hive.apache.org/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/EF02B56D99A64FB0888E48C8C792100C)||| 
-|[Spark](https://spark.apache.org/ "https://spark.apache.org/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/E8507E489D3D491F97DB0EBCED4BE581)|8080| 
+|[Spark](https://spark.apache.org/ "https://spark.apache.org/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/E8507E489D3D491F97DB0EBCED4BE581)|[spark3.0](https://github.com/zhouxiaoyuan/study/tree/master/codes/spark/spark3.0)| 
 |[Zookeeper](https://zookeeper.apache.org/ "https://zookeeper.apache.org/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/5AF11C787E6544E09C60175ACB8BCB3E)|| 
 |[Kafaka](https://kafka.apache.org/ "https://kafka.apache.org/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/50794958394B442C8E31C6D649ECA914)|| 
 |[Thrift](http://thrift.apache.org/ "http://thrift.apache.org/")|[安装](https://note.youdao.com/ynoteshare1/index.html?id=40d2eb78cbed2e69890fa6edd911f102&type=notebook#/7DF75AEC35924C7C9934C74E4990BF8F)|| 
