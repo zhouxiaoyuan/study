@@ -26,5 +26,5 @@
 |[MianJing](https://github.com/0voice)|||| 
 ||||| 
 ||||| 
-|[scala](https://github.com/0voice)|||| 
+|[scala](https://github.com/zhouxiaoyuan/study/tree/master/docs/Scala)|||| 
 
