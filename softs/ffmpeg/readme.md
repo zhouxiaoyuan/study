@@ -76,4 +76,8 @@
 
 组件:
  1. FFserver
+ ```
+ Warning: ffserver has been removed on 2018-01-06. If you still need it checkout commit 2ca65fc or use the 3.4 release branch. The original documentation has been archived and can be downloaded as ​HTML or ​PDF while the sample ffserver configuration file can be found below. We can provide no support for ffserver.
+Or try an alternative such as ​mkvserver_mk2.
+```
  
