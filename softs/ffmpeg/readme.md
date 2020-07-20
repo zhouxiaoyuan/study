@@ -6,6 +6,9 @@
 
 [python利用ffmpeg进行rtmp推流直播](https://blog.csdn.net/rainweic/article/details/94666527)
 
+搭建:
+  1. ffmpeg 安装
+  2.
 
 思路:
   1. FFserver搭建视频流中转服务   
