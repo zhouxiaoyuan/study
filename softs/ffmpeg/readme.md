@@ -9,7 +9,9 @@
 
 思路:
   1. FFserver搭建视频流中转服务
-  2. FFmpeg将视频帧推送到FFserver中
+  2. 使用python的subprocess模块Popen方法打开一个command，并定义接收管道
+  3. 程序将视频帧推送到接收管道中
+  
   
 
 组件:
