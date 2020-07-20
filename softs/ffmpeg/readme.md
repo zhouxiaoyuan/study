@@ -5,6 +5,7 @@
 |[FFserver](https://trac.ffmpeg.org/wiki/ffserver)|[FFmpeg](https://ffmpeg.org/ffmpeg.html)|[ffmpeg-python](https://github.com/kkroening/ffmpeg-python)|[mkvserver_mk2](https://github.com/klaxa/mkvserver_mk2)|
 
 [python利用ffmpeg进行rtmp推流直播](https://blog.csdn.net/rainweic/article/details/94666527)
+[ideo_stream_convert+环境安装](https://github.com/yywbxgl/rtsp_opencv_demo)
 
 搭建:
   1. ffmpeg 安装
