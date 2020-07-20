@@ -32,12 +32,14 @@
             rtmpUrl]
 
     # 管道配置
-    p = sp.Popen(command, stdin=sp.PIPE)
-
+    p = sp.Popen(command, stdin=sp.PIPE)   
+  ```
+  
+  3. 程序将视频帧推送到接收管道中
+  ```
     # write to pipe
     p.stdin.write(frame.tostring())
   ```
-  3. 程序将视频帧推送到接收管道中
   
   
 
