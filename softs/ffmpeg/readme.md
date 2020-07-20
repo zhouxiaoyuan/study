@@ -1,8 +1,8 @@
 
 
-|ffmpeg|ffmpeg-python|
-|:-:|:-:|
-|[FFmpeg](https://ffmpeg.org/ffmpeg.html)|[ffmpeg-python](https://github.com/kkroening/ffmpeg-python)|
+|ffserver|ffmpeg|ffmpeg-python|
+|:-:|:-:|:-:|
+|ffserver[](https://trac.ffmpeg.org/wiki/ffserver)|[FFmpeg](https://ffmpeg.org/ffmpeg.html)|[ffmpeg-python](https://github.com/kkroening/ffmpeg-python)|
 
 [python利用ffmpeg进行rtmp推流直播](https://blog.csdn.net/rainweic/article/details/94666527)
 
