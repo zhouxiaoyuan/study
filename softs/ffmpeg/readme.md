@@ -18,18 +18,21 @@
 
     # ffmpeg command
     command = ['ffmpeg',
-            '-y',
-            '-f', 'rawvideo',
-            '-vcodec','rawvideo',
-            '-pix_fmt', 'bgr24',
-            '-s', "{}x{}".format(width, height),
-            '-r', str(fps),
-            '-i', '-',
-            '-c:v', 'libx264',
-            '-pix_fmt', 'yuv420p',
-            '-preset', 'ultrafast',
-            '-f', 'flv', 
-            rtmpUrl]
+             '-y',
+             '-an',
+             '-f', 'rawvideo',
+             '-pix_fmt', 'bgr24',
+             '-s', "1920x1200",
+             '-r', '20',
+             '-i', '-',
+             '-c:v', 'mpeg4',
+             '-b:v', '500k',
+             '-preset', 'ultrafast',
+             '-tune', 'zerolatency',
+             '-muxrate', '1250k',
+             '-qmax', '51',
+             '-filter_threads', '4', 
+             rtmpUrl]
 
     # 管道配置
     p = sp.Popen(command, stdin=sp.PIPE)   
