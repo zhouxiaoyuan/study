@@ -7,6 +7,7 @@
 > [ideo_stream_convert+环境安装](https://github.com/yywbxgl/rtsp_opencv_demo) <br>
 > [ffmpeg+ffserver搭建rtsp服务器](https://blog.csdn.net/FPGATOM/article/details/98782202) <br>
 > [python利用ffmpeg进行rtmp推流直播](https://blog.csdn.net/rainweic/article/details/94666527) <br>
+[FFMPEG常用命令](https://www.jianshu.com/p/80d40dd670d4)
 
 
 
