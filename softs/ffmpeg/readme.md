@@ -100,4 +100,15 @@ Media players (P)
  通过ffprobe命令识别并输出视频信息
  ffprobe -v error -show_streams -print_format json <input>  
  ```
- 
+ 参数
+```
+-c:v：指定编码器，编码器列表可以使用ffmpeg -codecs查看
+-vf scale：指定输出视频的宽高，高-1代表按照比例自动适应
+-b:v：指定输出视频的码率，即输出视频每秒的bit数
+libx264支持的其他参数请使用ffmpeg -h encoder=libx264命令查询，如转码为其他编码，也可使用类似命令查询可用参数
+
+作者：kelgon
+链接：https://www.jianshu.com/p/59da3d350488
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+```
