@@ -9,7 +9,7 @@
 > [python利用ffmpeg进行rtmp推流直播](https://blog.csdn.net/rainweic/article/details/94666527) <br>
 > [FFMPEG常用命令](https://www.jianshu.com/p/80d40dd670d4) <br><br>
 
-> [](https://blog.csdn.net/u014162133/article/details/81188410)
+> [https://blog.csdn.net/u014162133/article/details/81188410](https://blog.csdn.net/u014162133/article/details/81188410)
 
 搭建:
   1. ffmpeg 安装
