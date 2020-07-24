@@ -125,3 +125,8 @@ CCTV5+高清：http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
 
 CCTV6高清：http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8
 ```
+
+
+TX2 GPU
+[使用GPU硬件加速FFmpeg视频转码](https://www.jianshu.com/p/59da3d350488)
+[FFmpeg 编译支持NVIDIA硬件编解码-windows平台](https://www.jianshu.com/p/032b47c48ada)
