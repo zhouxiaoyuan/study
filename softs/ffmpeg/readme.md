@@ -52,6 +52,8 @@ PreRoll 0
 NoAudio
 </Stream>
 
+推流
+ffmpeg -re -i "./test.mp4" -bf 0 -g 25 -r 25 -s 1920x1080 -b:v 4M -maxrate 8M -bufsize 1800k -vcodec libx264 -acodec aac  -ar 44100 http://localhost:8090/feed1.ffm
 
   ```
   
