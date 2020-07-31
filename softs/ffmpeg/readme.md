@@ -22,31 +22,36 @@
   ffserver -f /opt/ffserver.conf
   
   HttpPort 8090
-  RtspPort 8554
-  HttpBindAddress 0.0.0.0
-  MaxClients 1000
-  MaxBandwidth 10000
-  CustomLog -
-  NoDaemon
+RtspPort 8554
+HttpBindAddress 0.0.0.0
+MaxClients 1000
+MaxBandwidth 10000
+CustomLog -
+NoDaemon
 
-  <Feed feed1.ffm>
-  File ./feed1.ffm
-  FileMaxSize 500M
-  #ffmpeg http://172.16.17.119:8090/feed1.ffm
-  </Feed>
+<Feed feed1.ffm>
+File ./feed1.ffm
+FileMaxSize 5M
+</Feed>
 
-  <Stream test.h264>
-  Feed feed1.ffm
-  Format rtp
-  #VideoCodec libx264
-  VideoCodec mpeg4
-  HttpPort 8090
-  RtspPort 8554
-  HttpBindAddress 0.0.0.0
-  MaxClients 1000
-  MaxBandwidth 10000
-  CustomLog -
-  NoDaemon
+<Stream test.h264>
+Feed feed1.ffm
+Format rtp
+#VideoCodec libx264
+VideoCodec mpeg4
+VideoFrameRate 30
+VideoBufferSize 80000
+VideoBitRate 1000
+VideoSize 1280x720
+VideoQMin 1
+VideoQMax 5
+#AVPresetVideo default
+#AVPresetVideo baseline
+#AVOptionVideo flags +global_header
+PreRoll 0
+NoAudio
+</Stream>
+
 
   ```
   
