@@ -1,4 +1,4 @@
-| [Docs](https://github.com/zhouxiaoyuan/study/blob/master/docs/readme.md) | [Codes](https://github.com/zhouxiaoyuan/study/blob/master/codes/readme.md) | [Codes](https://github.com/zhouxiaoyuan/study/links/readme.md) | 
+| [Docs](https://github.com/zhouxiaoyuan/study/blob/master/docs/readme.md) | [Codes](https://github.com/zhouxiaoyuan/study/blob/master/codes/readme.md) | [links](https://github.com/zhouxiaoyuan/study/links/readme.md) | 
 | :---: | :----: | :----: | 
 | [:pencil2:](#pencil2-Hadoop) | [:computer:](#computer-python) | [:pencil2:](#pencil2-links)
 
