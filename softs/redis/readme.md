@@ -1,8 +1,8 @@
 
 运行脚本install_server.sh可能会报如下错误：
 
-This systems seems to use systemd.
-Please take a look at the provided example service unit files in this directory, and adapt and install them. Sorry!
+|This systems seems to use systemd.
+|Please take a look at the provided example service unit files in this directory, and adapt and install them. Sorry!
 
 
 #bail if this system is managed by systemd
