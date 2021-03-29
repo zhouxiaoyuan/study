@@ -1,4 +1,6 @@
 
+
+> make ; make PREFIX=/bigdata/installs/redis-6.2.1 install ; utils install_server.sh 
 ```
 Selected config:
 Port           : 6379
@@ -7,6 +9,13 @@ Log file       : /var/log/redis_6379.log
 Data dir       : /var/lib/redis/6379
 Executable     : /bigdata/installs/redis-6.2.1/bin/redis-server
 Cli Executable : /usr/local/bin/redis-cli
+Is this ok? Then press ENTER to go on or Ctrl-C to abort.
+Copied /tmp/6379.conf => /etc/init.d/redis_6379
+Installing service...
+Successfully added to chkconfig!
+Successfully added to runlevels 345!
+Starting Redis server...
+Installation successful!
 ```
 
 
