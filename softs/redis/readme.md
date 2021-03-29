@@ -10,7 +10,7 @@ Cli Executable : /usr/local/bin/redis-cli
 ```
 
 
-| 布隆过滤器 redis-server  /etc/redis/6379.conf --loadmodule /bigdata/installs/redis-6.2.1/bin/redisbloom.so
+> 布隆过滤器 redis-server  /etc/redis/6379.conf --loadmodule /bigdata/installs/redis-6.2.1/bin/redisbloom.so
 
 
 运行脚本install_server.sh可能会报如下错误：
