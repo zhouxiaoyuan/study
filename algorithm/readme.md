@@ -15,4 +15,4 @@
 | [B resources](https://mp.weixin.qq.com/s/HF-nKIfkjawAskIyGmSVjQ)
 
 
-| [Spring Cloud 图](https://mp.weixin.qq.com/s/ER0MgvxfaVuT4yy2y6YMNQ)
+| [SpringCloud图](https://mp.weixin.qq.com/s/ER0MgvxfaVuT4yy2y6YMNQ)   [SpringCloud搭建](https://mp.weixin.qq.com/s/2Dqw_DHdbxK8WubcIoSbYQ)
