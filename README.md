@@ -1,4 +1,4 @@
-| [Docs](https://github.com/zhouxiaoyuan/study/blob/master/docs/readme.md) | [Codes](https://github.com/zhouxiaoyuan/study/blob/master/codes/readme.md) | [Links]( https://github.com/zhouxiaoyuan/study/blob/master/links/readme.md) | [Algorithm]( https://github.com/zhouxiaoyuan/study/blob/master/algorithm/readme.md) |  [study]( https://github.com/zhouxiaoyuan/study/blob/master/algorithm/readme.md) | 
+| [Docs](https://github.com/zhouxiaoyuan/study/blob/master/docs/readme.md) | [Codes](https://github.com/zhouxiaoyuan/study/blob/master/codes/readme.md) | [Links]( https://github.com/zhouxiaoyuan/study/blob/master/links/readme.md) | [Algorithm]( https://github.com/zhouxiaoyuan/study/blob/master/algorithm/readme.md) |  [Study]( https://github.com/zhouxiaoyuan/study/blob/master/study/readme.md) | 
 | :---: | :----: | :----: | :----: |  :----: | 
 | [:pencil2:](#pencil2-Hadoop) | [:computer:](#computer-python) | [:pencil2:](#pencil2-Links)| [:pencil2:](#pencil2-Algorithm)| [:pencil2:](#pencil2-study)
 
