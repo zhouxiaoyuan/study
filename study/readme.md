@@ -1,10 +1,10 @@
 
 
-REPOSITORY          TAG           IMAGE ID          VIRTUAL SIZE
-alpine              latest        4e38e38c8ce0      4.799 MB
-debian              latest        4d6ce913b130      84.98 MB
-ubuntu              latest        b39b81afc8ca      188.3 MB
-centos              latest        8efe422e6104      210 MB
+|REPOSITORY   |       TAG      |     IMAGE ID      |    VIRTUAL SIZE|
+|alpine       |      latest    |    4e38e38c8ce0   |   4.799 MB|
+|debian       |       latest   |     4d6ce913b130  |    84.98 MB|
+|ubuntu       |       latest   |     b39b81afc8ca  |    188.3 MB|
+|centos       |       latest   |     8efe422e6104  |    210 MB|
 
 下面介绍利用Arthas 3.1.0版本的 jad/mc/redefine 一条龙来热更新代码。
 
